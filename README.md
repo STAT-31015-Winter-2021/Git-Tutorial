@@ -75,11 +75,11 @@ Go to your repo under **STAT-31015-Winter-2021** organization, copy over the ass
 
 <img src="https://www.dropbox.com/s/60bvy14i84tu202/Capture6.PNG?raw=1" width="1000"/>
 
-**Check**: `git clone git@github.com:caam37830/test-assignment-richardzhu.git` will copy over the entire contents of the repo to a directory called `test-assignment-richardzhu` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830` and run `git clone git@github.com:caam37830/test-assignment-richardzhu.git`. I should have the directory `~/caam37830/test-assignment-richardzhu` containing all the homework files.
+**Check**: `git@github.com:STAT-31015-Winter-2021/Yian.git` will copy over the entire contents of the repo to a directory in whichever directory you call it in.
 
 ### Tracking the changes and submitting your assignments
 
-Each assignment will have a `README.md` file detailing what you need to do to complete the assignment. After you clone the repository, you can make and test your changes locally. After you've made changes to the files and are satisfied with your work, run `git status`. It should output a list of tracked files that you modified, but haven't yet been *committed*, like so:
+After you clone the repository, you can make changes locally. Now you can create new folders under the local repository and drag your code into the correspnding folders. After you've made changes to the files and are satisfied with your work, run `git status`. It should output a list of tracked files that you modified, but haven't yet been *committed*, like so:
 
 ```bash
 On branch master
@@ -88,12 +88,12 @@ Your branch is up to date with 'origin/master'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   file_that_i_changed.py
+	modified:   file_that_i_changed.m
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-If you don't commit changes and push them to GitHub, we won't be able to see them. To ensure that Git tracks your changes, make sure to add the files to staging like so: `git add file_that_i_changed.py`, repeating this for each file. If you run `git status` after doing this, you should see:
+If you don't commit changes and push them to GitHub, we won't be able to see them. To ensure that Git tracks your changes, make sure to add the files to staging like so: `git add file_that_i_changed.m`, repeating this for each file. Or you can use `git add .` to add all the changed files. If you run `git status` after doing this, you should see:
 
 ```bash
 On branch master
@@ -101,10 +101,10 @@ Your branch is up to date with 'origin/master'.
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-	modified:   file_that_i_changed.py
+	modified:   file_that_i_changed.m
 ```
 
-Staging is a step prior to committing. It allows you to iteratively add changes you think should go into a *commit*. Once you're satisfied with your changes, you can make a commit and add a descriptive message like so: `git commit -m "add tests to file_that_i_changed.py"`. This will show you the commit you just made, with statistics on how many lines of code you added/deleted and how many files you modified:
+Staging is a step prior to committing. It allows you to iteratively add changes you think should go into a *commit*. Once you're satisfied with your changes, you can make a commit and add a descriptive message like so: `git commit -m "add tests to file_that_i_changed.m"`. This will show you the commit you just made, with statistics on how many lines of code you added/deleted and how many files you modified:
 
 ```bash
 [master f9fd5ba] add tests
@@ -123,22 +123,14 @@ This means that the tree of work your local git is tracking is one node (commit)
 
 That's it!
 
-*Optional*: When doing your assignments, try to make your commits as atomic as possible instead of making one big commit with all your changes. That is, if you complete all the problems within `file.py`, `git add` and `git commit -m "solved problems in file.py"`. Repeat this for each file's changes. Making your changes as atomic as possible and writing descriptive commit messages is good practice, because it means you have a very clean work tree. Any colleagues reading the history can easily revert changes you made, and it minimizes the chance of big conflicts with other people's work you have to resolve manually.
-
-## Missing the forest for the trees
-
-Git is a way to represent a codebase (and changes to it) as a directed acyclic graph (DAG). The simplest possible DAG is one where each node is connected only to the next one. Such a DAG corresponds to the base case where one individual is working on one set of files with no branching:
-
-![](https://www.dropbox.com/s/m1373zfdm91aaj4/Screen%20Shot%202020-10-01%20at%2016.39.40.png?raw=1)
-
-There are more complex commands that allow you to introduce branches, merge branches, and perform other graph manipulations. But that's for another day.
+*Optional*: When doing your assignments, try to make your commits as atomic as possible instead of making one big commit with all your changes. That is, if you complete all the problems within `file.m`, `git add` and `git commit -m "solved problems in file.m"`. Repeat this for each file's changes. Making your changes as atomic as possible and writing descriptive commit messages is good practice, because it means you have a very clean work tree. Any colleagues reading the history can easily revert changes you made, and it minimizes the chance of big conflicts with other people's work you have to resolve manually.
 
 ## Basic git cheatsheet
 
 In summary, here are the commands you should be familiar with:
 
-- Stage files for a new commit: `git add file1.py file2.py file3.py file4.txt file5.md` 
-  - You can use `glob` syntax to add all files ending in `.py` ( `git add *.py` ) or even all the files in the current folder (`git add ./*`) but it's not recommended. There are often many files you don't want to add to git history. These include compiled Python files `*.pyc` as well as Jupyter notebook checkpoints `.ipynb_checkpoints`, among others.
+- Stage files for a new commit: `git add file1.m file2.m file3.m file4.txt file5.md` 
+  - You can use `glob` syntax to add all files ending in `.m` ( `git add *.m` ) or even all the files in the current folder (`git add ./*`) but it's not recommended. There are often many files you don't want to add to git history. These include compiled Python files `*.pyc` as well as Jupyter notebook checkpoints `.ipynb_checkpoints`, among others.
 - Remove files from staging: `git reset file1.py`
   - If you accidentally staged a file you don't want to commit, use this.
 - Make a new commit with all currently staged changes `git commit -m "descriptive message"`
