@@ -20,17 +20,19 @@ By clicking through the name, now you will be directed to the organization page,
 
 Here you will find a repository (repo) with your first name. All the homework code should be submitted into this repo. If you don't find any repositories or the name doens't match, please contact us. Here we provide two ways to submit your code. If you are not familiar with git, we recommend you to use the web user interface. But feel free to try out more git features!
 
-## Through Github Webpage
+## Through Github Webpage (Recommended)
 
 Now you can click and enter your repo. I will use my repo as an example. Initially the repo will look like the following:
 
 <img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="1000"/>
 
-First please create a folder named "HW#" where "#" is the number of homework. Creating a folder through webpage is a little bit tricky. Please follow the instructions in [this page](https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository) to create an empty folder. For example, in my repo I have created a folder named "HW4" for homework 4. Enter this folder. To upload your code, simply click the "Add file" button and select "Upload files". Follow the instrutions
+First please create a folder named "HW#" where "#" is the number of homework. Creating a folder through webpage is a little bit tricky. Please follow the instructions in [this page](https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository) to create an empty folder. For example, in my repo I have created a folder named "HW4" for homework 4. Enter this folder. To upload your code, simply click the "Add file" button and select "Upload files". Follow the instrutions to select your files and finally click "commit changes". Now you can check on our repo to make sure the files have been successfully uploaded.
 
 <img src="https://www.dropbox.com/s/qxyvve9zoyqhbmx/Capture5.PNG?raw=1" width="1000"/>
 
-## What is git?
+
+
+## Through Git
 
 `git` is a version-control system. It lets you track the whole history of changes made to code stored within a **repo** (repository), and it's especially powerful when collaborating on the same codebase with many people. It is designed to enable the following:
 
