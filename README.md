@@ -1,6 +1,6 @@
 # Github Code Submission Tutorial For STAT 31015
 
-The goal of the tutorial is to provide the necessary minimum information for successful code submissions. You can either submit your code via Github web user interface or *commit* your changes. If you are familiar with working with Git, feel free to skip this tutorial. 
+The goal of the tutorial is to provide the necessary minimum information for successful code submissions. You can either submit your code via Github web user interface or *commit* your changes. If you are familiar with working with git, feel free to skip this tutorial. 
 
 For any problems and further assistance, please contact our TAs.
 
@@ -18,9 +18,14 @@ By clicking through the name, now you will be directed to the organization page,
 
 <img src="https://www.dropbox.com/s/apnc3l3ogwmsvsv/Capture3.PNG?raw=1" width="400"/>
 
-*This tutorial was adapted from [these notes](https://github.com/icme/cme257-advanced-julia/blob/master/class/class4/class4.md).*
+Here you will find a repository (repo) with your first name. All the homework code should be submitted into this repo. If you don't find any repositories or the name doens't match, please contact us. Here we provide two ways to submit your code. If you are not familiar with git, we recommend you to use the web user interface. But feel free to try out more git features!
 
-If you're familiar with the workings of Git, feel free to skip this tutorial.
+## Through Github Webpage
+
+Now you can click and enter your repo. I will use my repo as an example. Initially the repo will look like this
+
+<img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="400"/>
+
 
 ## What is git?
 
