@@ -6,11 +6,17 @@ For any problems and further assistance, please contact our TAs.
 
 ## Getting Started
 
-We have created an organization called **STAT-31015-Winter-2021** for this class. To get access to the organizations you are in, click the upper right corner of the Github webpage,
+We have created an organization called **STAT-31015-Winter-2021** for this class. To get access to the organizations you are in, click the upper right corner of the Github webpage and click "Your organizations",
 
 <img src="https://www.dropbox.com/s/faol7l2wnpg6582/Capture1.PNG?raw=1" width="160"/>
 
-<img src="https://www.dropbox.com/s/k4fb6akfxfub2jz/Capture2.PNG?raw=1" width="160"/>
+Find our class **STAT-31015-Winter-2021**,
+
+<img src="https://www.dropbox.com/s/k4fb6akfxfub2jz/Capture2.PNG?raw=1" width="600"/>
+
+By clicking through the name, now you will be directed to the organization page,
+
+<img src="https://www.dropbox.com/s/apnc3l3ogwmsvsv/Capture3.PNG?raw=1" width="600"/>
 
 *This tutorial was adapted from [these notes](https://github.com/icme/cme257-advanced-julia/blob/master/class/class4/class4.md).*
 
