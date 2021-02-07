@@ -30,7 +30,7 @@ First please create a folder named "HW#" where "#" is the number of homework. Cr
 
 <img src="https://www.dropbox.com/s/qxyvve9zoyqhbmx/Capture5.PNG?raw=1" width="1000"/>
 
-That's all! Feel free to stop here. If you are interested in more about git, please continue.
+That's all! Feel free to stop here. If you are interested in more about git, please go ahead.
 
 ## Through Git
 
@@ -47,8 +47,6 @@ That's all! Feel free to stop here. If you are interested in more about git, ple
 * tracking a *log* of project history
 
 A git repo is stored locally on your computer. To make it visible to others online, it needs to be mirrored to somewhere in the cloud - and that's where GitHub comes in. GitHub (and competitors like Bitbucket, Gitlab) allow you to host git repositories on their remote servers, and serves as a pretty frontend to interact with your repositories.
-
-## Getting started with git
 
 ### Installing git
 
