@@ -1,4 +1,15 @@
-# Git tutorial
+# Github Code Submission Tutorial For STAT 31015
+
+The goal of the tutorial is to provide the necessary minimum information for successful code submissions. You can either submit your code via Github web user interface or *commit* your changes. If you are familiar with working with Git, feel free to skip this tutorial. 
+
+For any problems and further assistance, please contact our TAs.
+
+## Getting Started
+
+We have created an organization called **STAT-31015-Winter-2021** for this class. 
+
+![](https://www.dropbox.com/s/c03sbfkz5ylqfkt/Screen%20Shot%202020-11-02%20at%2010.59.52%20AM.png?raw=1)
+
 
 *This tutorial was adapted from [these notes](https://github.com/icme/cme257-advanced-julia/blob/master/class/class4/class4.md).*
 
