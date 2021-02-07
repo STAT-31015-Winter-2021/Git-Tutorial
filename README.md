@@ -8,7 +8,7 @@ For any problems and further assistance, please contact our TAs.
 
 We have created an organization called **STAT-31015-Winter-2021** for this class. 
 
-![](https://www.dropbox.com/s/c03sbfkz5ylqfkt/Screen%20Shot%202020-11-02%20at%2010.59.52%20AM.png?raw=1)
+<img src="https://www.dropbox.com/s/c03sbfkz5ylqfkt/Screen%20Shot%202020-11-02%20at%2010.59.52%20AM.png?raw=1" width="600"/>
 
 
 *This tutorial was adapted from [these notes](https://github.com/icme/cme257-advanced-julia/blob/master/class/class4/class4.md).*
