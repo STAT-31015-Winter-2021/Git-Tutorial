@@ -50,7 +50,7 @@ A git repo is stored locally on your computer. To make it visible to others onli
 
 ### Installing git
 
-Per the initial assumption, we assume you are using Mac or Linux, where `git` usually comes installed. Test this out by opening a terminal and typing `git version`. If it spits out `git version 2.XX.X`, then you have it installed.
+Per the initial assumption, we assume you are using Mac or Linux, where `git` usually comes installed. Test this out by opening a terminal and typing `git version`. If it spits out `git version 2.XX.X`, then you have it installed. You can also find installation instructions for Windows users [here](https://git-scm.com/download/win).
 
 If it gives you an error message, then you should follow the [instructions here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git.
 
@@ -69,29 +69,11 @@ To interface with remote repositories stored on GitHub, you will also need to ma
 
 **Required**: In order to pull and push to private repos on GitHub, you will need to provide some form of authentication. The ideal solution here is to use SSH keys. Follow the [instructions here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate a new SSH key for your computer and add it to your GitHub account.
 
-**Required**: Check that running `git clone https://github.com/caam37830/caam37830.github.io.git` copies a directory called `caam37830.github.io` into the directory you ran it in, and verify that you see output like the following:
+### Clone the repo
 
-```bash
-Cloning into 'caam37830.github.io'...
-remote: Enumerating objects: 121, done.
-remote: Counting objects: 100% (121/121), done.
-remote: Compressing objects: 100% (72/72), done.
-remote: Total 121 (delta 62), reused 88 (delta 35), pack-reused 0
-Receiving objects: 100% (121/121), 22.76 KiB | 7.59 MiB/s, done.
-Resolving deltas: 100% (62/62), done.
-```
+Go to your repo under **STAT-31015-Winter-2021** organization, copy over the assignment files, click the "code" dropdown menu, and click Clone > SSH. You can click the clipboard button to copy the repo's ssh URL to your clipboard
 
-### Using GitHub classroom to pull your assignments
-
-Homeworks will be released in GitHub Classroom. Each assignment will have an URL inviting you to automatically create a private repo within the `caam37830` GitHub organization to store your work in. 
-
-Create a repo for the assignment, and go to the main page. You should see something like this, with additional files that help you:
-
-![](https://www.dropbox.com/s/hmpiogjfgr5yqsh/Screen%20Shot%202020-10-01%20at%2015.53.47.png?raw=1)
-
-To copy over the assignment files, click the `Code` dropdown menu (boxed in red), and click Clone > SSH. You can click the clipboard button (boxed in red) to copy the repo's ssh URL to your clipboard:
-
-![](https://www.dropbox.com/s/cw7waxd9fo8usi1/Screen%20Shot%202020-10-01%20at%2015.56.07.png?raw=1)
+<img src="https://www.dropbox.com/s/60bvy14i84tu202/Capture6.PNG?raw=1" width="1000"/>
 
 **Check**: `git clone git@github.com:caam37830/test-assignment-richardzhu.git` will copy over the entire contents of the repo to a directory called `test-assignment-richardzhu` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830` and run `git clone git@github.com:caam37830/test-assignment-richardzhu.git`. I should have the directory `~/caam37830/test-assignment-richardzhu` containing all the homework files.
 
