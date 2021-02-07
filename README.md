@@ -16,7 +16,7 @@ Find our class **STAT-31015-Winter-2021**,
 
 By clicking through the name, now you will be directed to the organization page,
 
-<img src="https://www.dropbox.com/s/apnc3l3ogwmsvsv/Capture3.PNG?raw=1" width="600"/>
+<img src="https://www.dropbox.com/s/apnc3l3ogwmsvsv/Capture3.PNG?raw=1" width="400"/>
 
 *This tutorial was adapted from [these notes](https://github.com/icme/cme257-advanced-julia/blob/master/class/class4/class4.md).*
 
