@@ -24,7 +24,7 @@ Here you will find a repository (repo) with your first name. All the homework co
 
 Now you can click and enter your repo. I will use my repo as an example. Initially the repo will look like this
 
-<img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="600"/>
+<img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="800"/>
 
 
 ## What is git?
