@@ -26,8 +26,9 @@ Now you can click and enter your repo. I will use my repo as an example. Initial
 
 <img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="1000"/>
 
-First please create a folder named "HW#" where "#" is the number of homework. Creating a folder through webpage is a little bit tricky. Please follow the instructions in [this page](https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository)
-To upload your code, simply click the "Add file" button and select "Upload files". Follow the instrutions
+First please create a folder named "HW#" where "#" is the number of homework. Creating a folder through webpage is a little bit tricky. Please follow the instructions in [this page](https://stackoverflow.com/questions/12258399/how-do-i-create-a-folder-in-a-github-repository) to create an empty folder. For example, in my repo I have created a folder named "HW4" for homework 4. Enter this folder. To upload your code, simply click the "Add file" button and select "Upload files". Follow the instrutions
+
+<img src="https://www.dropbox.com/s/qxyvve9zoyqhbmx/Capture5.PNG?raw=1" width="1000"/>
 
 ## What is git?
 
