@@ -26,6 +26,8 @@ Now you can click and enter your repo. I will use my repo as an example. Initial
 
 <img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="1000"/>
 
+First please create a folder named "HW#"
+To upload your code, simply click the "Add file" button and select "Upload files". Follow the instrutions
 
 ## What is git?
 
