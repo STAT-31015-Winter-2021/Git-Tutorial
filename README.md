@@ -22,9 +22,9 @@ Here you will find a repository (repo) with your first name. All the homework co
 
 ## Through Github Webpage
 
-Now you can click and enter your repo. I will use my repo as an example. Initially the repo will look like this
+Now you can click and enter your repo. I will use my repo as an example. Initially the repo will look like the following:
 
-<img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="800"/>
+<img src="https://www.dropbox.com/s/q7vjkf48wl6zb2p/Capture4.PNG?raw=1" width="1000"/>
 
 
 ## What is git?
