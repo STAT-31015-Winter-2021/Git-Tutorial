@@ -30,10 +30,13 @@ First please create a folder named "HW#" where "#" is the number of homework. Cr
 
 <img src="https://www.dropbox.com/s/qxyvve9zoyqhbmx/Capture5.PNG?raw=1" width="1000"/>
 
-
+That's all! Feel free to stop here. If you are interested in more about git, please continue.
 
 ## Through Git
 
+*This tutorial was adapted from [these notes](https://github.com/caam37830/git-tutorial) by Richard Zhu (richardzhu@uchicago.edu).*
+
+### What is git?
 `git` is a version-control system. It lets you track the whole history of changes made to code stored within a **repo** (repository), and it's especially powerful when collaborating on the same codebase with many people. It is designed to enable the following:
 
 * periodic saving of work (called *committing*)
