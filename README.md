@@ -125,23 +125,6 @@ That's it!
 
 *Optional*: When doing your assignments, try to make your commits as atomic as possible instead of making one big commit with all your changes. That is, if you complete all the problems within `file.m`, `git add` and `git commit -m "solved problems in file.m"`. Repeat this for each file's changes. Making your changes as atomic as possible and writing descriptive commit messages is good practice, because it means you have a very clean work tree. Any colleagues reading the history can easily revert changes you made, and it minimizes the chance of big conflicts with other people's work you have to resolve manually.
 
-## Basic git cheatsheet
-
-In summary, here are the commands you should be familiar with:
-
-- Stage files for a new commit: `git add file1.m file2.m file3.m file4.txt file5.md` 
-  - You can use `glob` syntax to add all files ending in `.m` ( `git add *.m` ) or even all the files in the current folder (`git add ./*`) but it's not recommended. There are often many files you don't want to add to git history. These include compiled Python files `*.pyc` as well as Jupyter notebook checkpoints `.ipynb_checkpoints`, among others.
-- Remove files from staging: `git reset file1.py`
-  - If you accidentally staged a file you don't want to commit, use this.
-- Make a new commit with all currently staged changes `git commit -m "descriptive message"`
-- Push local work tree to remote work tree on GitHub: `git push` or `git push origin master`
-- Pull remote work tree and update your local work tree: `git pull` or `git pull origin master`
-  - You will do this often if you're collaborating on a project, or are using a project that is being actively worked on.
-- Copy a remote repository to your machine: `git clone <url>`
-- See current status of your repo: `git status`
-- See a log of work tree, with commits and people who made them: `git log`
-  - `git log --stat` to show which files and line numbers changed
-
 ## Extra resources
 
 * Git homepage: http://git-scm.com/
